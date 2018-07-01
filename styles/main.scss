@@ -34,11 +34,14 @@ a{
 
 .cover {
   width: 100%;
+  @media only screen and (min-width: 1000px) {
+    padding: 0em 7em;
+  }
 }
 
 .content {
     margin: 3em auto;
-    width: 40%;
+    width: 100%;
     text-align: center;
     .local, .quinta{
       margin-top: 2em;
@@ -56,6 +59,9 @@ a{
       order: 0;
       margin-bottom: 2em;
       width: 100%;
+      h1{
+        color: #999;
+      }
       @media only screen and (min-width: 680px) {
         width: 35%;
         margin: 0;
@@ -64,6 +70,9 @@ a{
     .daniel{
       order: 1;
       width: 100%;
+      h1{
+        color: #999;
+      }
       @media only screen and (min-width: 680px) {
         width: 35%;
         margin: 0;
