@@ -7,6 +7,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.638;
   position: relative;
+  background-color: #f1f1f1;
 }
 
 h1,
@@ -30,21 +31,30 @@ a{
   color:#3d9991;
   text-decoration: none;
 }
+a:hover {
+color:#0D8076;
+}
+
 // Cover
 
 .cover {
   width: 100%;
-  @media only screen and (min-width: 1000px) {
-    padding: 2em 15em;
+  @media only screen and (min-width: 980px) {
+    margin: 0 auto;
+    width: 60%;
   }
 }
 
 .content {
-    margin: 3em auto;
+    background-color: #FFF;
+    padding: 3em 0em;
     width: 100%;
+    margin: -1em auto;
+
     text-align: center;
-      @media only screen and (min-width: 1000px){
-        margin: 1em auto;
+      @media only screen and (min-width: 980px){
+        width: 60%;
+        padding-top: 4em;
       }
     .local, .quinta{
       margin-top: 2em;
@@ -52,7 +62,13 @@ a{
 }
 
 .contacts{
-  margin: 5em 0;
+  padding: 1em 0 3em 0;
+  background-color: #FFF;
+  width: 100%;
+  @media only screen and (min-width: 980px) {
+    width: 60%;
+    margin: 0 auto;
+  }
   .dados{
     display: flex;
     justify-content: center;
@@ -66,8 +82,8 @@ a{
         color: #999;
       }
       @media only screen and (min-width: 680px) {
-        width: 35%;
-        margin: 0;
+        width: 50%;
+        padding-top: 1em;
       }
     }
     .daniel{
@@ -77,8 +93,8 @@ a{
         color: #999;
       }
       @media only screen and (min-width: 680px) {
-        width: 35%;
-        margin: 0;
+        width: 50%;
+        padding-top: 1em;
       }
     }
   }
